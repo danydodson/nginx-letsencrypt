@@ -26,7 +26,7 @@ Please note that **letsencrypt-nginx-proxy-companion** no longer supports ACME v
 * Your DNS provider must [answer correctly to CAA record requests](https://letsencrypt.org/docs/caa/).
 * If your (sub)domains have AAAA records set, the host must be publicly reachable over IPv6 on port `80` and `443`.
 
-![schema](https://github.com/danydodson/docker-letsencrypt-nginx-proxy-companion/blob/master/schema.png)
+![schema](https://github.com/danydodson/nginx-letsencrypt/blob/master/schema.png)
 
 ## Basic usage (with the nginx-proxy container)
 
